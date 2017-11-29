@@ -6,7 +6,7 @@ class Database {
   // Creates a new connection.
   public function connect() {
     if (!isset($connection)) {
-      self::$connection = new mysqli("localhost", "PrintLogAdmin", "print123", "3DPrintLog");
+      self::$connection = new mysqli("localhost", "user", "pass", "dbName");
     }
 
     if (self::$connection == false) {
