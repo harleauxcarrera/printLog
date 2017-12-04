@@ -82,7 +82,7 @@ if (isset($_SESSION["authorized"]) && $_SESSION["authorized"]) {
                 <!-- TODO: Passcode field & POST validation -->
                 <div class="col-lg-6">
                   <div class="form-group">
-                    <form action="login.php" method="post">
+                    <form action="index.php" method="post">
                     <label>Passcode</label>
                     <input name="passcode" class="form-control" placeholder="Enter passcode" type="password"><br/>
                     <input type="submit" class="btn btn-default" value="Submit">
